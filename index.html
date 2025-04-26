@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeoBrew | Futuristic Cafe Experience</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <span>Neo</span>Brew
+        </div>
+        <div class="nav-toggle" id="navToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#menu" class="nav-link">Menu</a></li>
+            <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="parallax-bg"></div>
+        <div class="gradient-overlay"></div>
+        <div class="hero-content">
+            <h1 class="fade-in">Welcome to <span>Neo</span>Brew</h1>
+            <p class="fade-in">Experience coffee from the future</p>
+            <button class="cta-button glow-effect fade-in">Order Now</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-container">
+            <div class="about-image reveal-element">
+                <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZnV0dXJpc3RpYyUyMGNhZmV8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60" alt="NeoBrew Interior">
+            </div>
+            <div class="about-text reveal-element">
+                <h2>Our <span>Story</span></h2>
+                <p>Founded in 2042, NeoBrew reimagines what coffee can be. Using molecular gastronomy and AI-driven flavor profiling, we create beverages that adapt to your mood and preferences.</p>
+                <p>Our space combines minimalist design with holographic elements to transport you to a realm where technology and tradition blend seamlessly.</p>
+                <button class="about-btn">Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <h2>Our <span>Menu</span></h2>
+        <div class="menu-container">
+            <!-- Menu Item 1 -->
+            <div class="menu-item reveal-element">
+                <div class="menu-card">
+                    <div class="menu-card-front">
+                        <img src="https://images.unsplash.com/photo-1529892485617-25f63cd7b1e9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" alt="Quantum Espresso">
+                        <h3>Quantum Espresso</h3>
+                        <p class="price">$6.50</p>
+                    </div>
+                    <div class="menu-card-back">
+                        <h3>Quantum Espresso</h3>
+                        <p>Our signature espresso infused with flavor-changing molecules that evolve as you drink.</p>
+                        <p class="price">$6.50</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Menu Item 2 -->
+            <div class="menu-item reveal-element">
+                <div class="menu-card">
+                    <div class="menu-card-front">
+                        <img src="https://images.unsplash.com/photo-1577968897966-3d4325b36b61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" alt="Nebula Latte">
+                        <h3>Nebula Latte</h3>
+                        <p class="price">$7.75</p>
+                    </div>
+                    <div class="menu-card-back">
+                        <h3>Nebula Latte</h3>
+                        <p>Color-shifting latte with cosmic foam art and hints of vanilla stardust.</p>
+                        <p class="price">$7.75</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Menu Item 3 -->
+            <div class="menu-item reveal-element">
+                <div class="menu-card">
+                    <div class="menu-card-front">
+                        <img src="https://images.unsplash.com/photo-1551887196-72e32bfc7bf3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" alt="Holographic Mocha">
+                        <h3>Holographic Mocha</h3>
+                        <p class="price">$8.25</p>
+                    </div>
+                    <div class="menu-card-back">
+                        <h3>Holographic Mocha</h3>
+                        <p>Rich chocolate with a shimmer effect and temperature-responsive cream topping.</p>
+                        <p class="price">$8.25</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Menu Item 4 -->
+            <div class="menu-item reveal-element">
+                <div class="menu-card">
+                    <div class="menu-card-front">
+                        <img src="https://images.unsplash.com/photo-1579888944880-d98341245702?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" alt="Cyborg Cold Brew">
+                        <h3>Cyborg Cold Brew</h3>
+                        <p class="price">$5.95</p>
+                    </div>
+                    <div class="menu-card-back">
+                        <h3>Cyborg Cold Brew</h3>
+                        <p>48-hour nitrogen-infused cold brew with electrolyte enhancement.</p>
+                        <p class="price">$5.95</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Menu Item 5 -->
+            <div class="menu-item reveal-element">
+                <div class="menu-card">
+                    <div class="menu-card-front">
+                        <img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" alt="Levitating Croissant">
+                        <h3>Levitating Croissant</h3>
+                        <p class="price">$4.50</p>
+                    </div>
+                    <div class="menu-card-back">
+                        <h3>Levitating Croissant</h3>
+                        <p>Ultra-light pastry with air pockets that give the sensation of floating.</p>
+                        <p class="price">$4.50</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Menu Item 6 -->
+            <div class="menu-item reveal-element">
+                <div class="menu-card">
+                    <div class="menu-card-front">
+                        <img src="https://images.unsplash.com/photo-1587314168485-3236d6710814?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" alt="Neon Cheesecake">
+                        <h3>Neon Cheesecake</h3>
+                        <p class="price">$9.25</p>
+                    </div>
+                    <div class="menu-card-back">
+                        <h3>Neon Cheesecake</h3>
+                        <p>Bioluminescent cheesecake that glows under our special cafe lighting.</p>
+                        <p class="price">$9.25</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <h2>What Our <span>Customers</span> Say</h2>
+        <div class="testimonial-slider">
+            <div class="testimonial-container">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card active">
+                    <div class="testimonial-avatar">
+                        <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Customer Avatar">
+                    </div>
+                    <div class="testimonial-content">
+                        <p>"The Quantum Espresso literally changed flavors as I drank it. Mind-blowing experience that I can't wait to try again!"</p>
+                        <h4>Sophia Chen</h4>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-avatar">
+                        <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Customer Avatar">
+                    </div>
+                    <div class="testimonial-content">
+                        <p>"The ambiance is out of this world. I come here to work remotely and feel like I'm in a sci-fi movie. The Nebula Latte is my go-to!"</p>
+                        <h4>Marcus Johnson</h4>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-avatar">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Customer Avatar">
+                    </div>
+                    <div class="testimonial-content">
+                        <p>"I've never experienced anything like the Neon Cheesecake. It literally glows! And tastes even better than it looks. Worth every penny."</p>
+                        <h4>Aisha Williams</h4>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <div class="slider-dots">
+                    <span class="dot active" data-index="0"></span>
+                    <span class="dot" data-index="1"></span>
+                    <span class="dot" data-index="2"></span>
+                </div>
+                <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Get in <span>Touch</span></h2>
+        <div class="contact-container">
+            <div class="contact-info reveal-element">
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>123 Cyber Avenue, Neo District</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-clock"></i>
+                    <p>Open Daily: 7AM - 11PM</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <p>+1 (555) 123-4567</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>hello@neobrew.cafe</p>
+                </div>
+            </div>
+            <form class="contact-form reveal-element">
+                <div class="form-group">
+                    <input type="text" id="name" required>
+                    <label for="name">Your Name</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" required>
+                    <label for="email">Your Email</label>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" required></textarea>
+                    <label for="message">Your Message</label>
+                </div>
+                <button type="submit" class="submit-btn">
+                    <span class="btn-text">Send Message</span>
+                    <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+                    <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                        <circle class="checkmark-circle" cx="26" cy="26" r="25" fill="none"/>
+                        <path class="checkmark-check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span>Neo</span>Brew
+            </div>
+            <div class="social-icons">
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+            </div>
+            <p class="copyright">&copy; 2023 NeoBrew Cafe. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" class="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Background Animation Container -->
+    <div class="particles-container" id="particles"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
